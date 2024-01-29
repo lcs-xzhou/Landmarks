@@ -13,7 +13,7 @@ struct DetailView: View {
                 .scaledToFit()
             
             HStack {
-                Image(systemName: item.isRecommended == true ? "hand.thumbsup.fill" : "hand.thumbsdown")
+                Image(systemName: item.isRecommended == true ? "checkmark.circle" : "multiply.circle.fill")
                     .resizable()
                     .scaledToFit()
                     .frame(height: 20)
@@ -32,12 +32,12 @@ struct DetailView: View {
 
 #Preview {
     NavigationStack {
-        DetailView(item: rom)
+        DetailView(item: greatWall)
     }
 }
 
 #Preview {
     NavigationStack {
-        DetailView(item: sudburyNickel)
+        DetailView(item: forbiddenCity)
     }
 }

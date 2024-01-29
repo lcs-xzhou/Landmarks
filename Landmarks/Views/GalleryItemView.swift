@@ -29,7 +29,7 @@ struct GalleryItemView: View {
 
             Spacer()
             
-            Image(systemName: item.isRecommended == true ? "hand.thumbsup.fill" : "hand.thumbsdown")
+            Image(systemName: item.isRecommended == true ? "checkmark.circle" : "multiply.circle.fill")
                 .resizable()
                 .scaledToFit()
                 .frame(height: 20)
@@ -43,9 +43,9 @@ struct GalleryItemView: View {
 
 #Preview {
     HStack {
-        GalleryItemView(item: wonderland)
+        GalleryItemView(item: greatWall)
             .frame(idealHeight: 200, maxHeight: 250)
-        GalleryItemView(item: sudburyNickel)
+        GalleryItemView(item: forbiddenCity)
             .frame(idealHeight: 200, maxHeight: 250)
 
     }
