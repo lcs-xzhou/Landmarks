@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct FootPrintView: View {
+    
+    let item: Landmark
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: item.BeenThereOrNot == true ? "checkmark.circle" : "multiply.circle.fill")
+            .resizable()
+            .scaledToFit()
+            .frame(height: 20)
+            .padding(5)
     }
 }
 
 #Preview {
-    FootPrintView()
+    FootPrintView(item: greatWall)
 }

@@ -29,11 +29,7 @@ struct GalleryItemView: View {
 
             Spacer()
             
-            Image(systemName: item.isRecommended == true ? "checkmark.circle" : "multiply.circle.fill")
-                .resizable()
-                .scaledToFit()
-                .frame(height: 20)
-                .padding(5)
+            FootPrintView(item: item)
             
         }
         .padding()
