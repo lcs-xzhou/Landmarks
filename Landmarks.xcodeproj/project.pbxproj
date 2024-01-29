@@ -15,6 +15,7 @@
 		2D49D2FB2B680A760036E4D4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49D2FA2B680A760036E4D4 /* ListView.swift */; };
 		2D49D2FD2B680C980036E4D4 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49D2FC2B680C980036E4D4 /* ListItemView.swift */; };
 		2D49D2FF2B680D930036E4D4 /* GalleryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49D2FE2B680D930036E4D4 /* GalleryItemView.swift */; };
+		2D49D3012B680E330036E4D4 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D49D3002B680E330036E4D4 /* GalleryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2D49D2FA2B680A760036E4D4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		2D49D2FC2B680C980036E4D4 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		2D49D2FE2B680D930036E4D4 /* GalleryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemView.swift; sourceTree = "<group>"; };
+		2D49D3002B680E330036E4D4 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				2D49D2FA2B680A760036E4D4 /* ListView.swift */,
 				2D49D2FC2B680C980036E4D4 /* ListItemView.swift */,
 				2D49D2FE2B680D930036E4D4 /* GalleryItemView.swift */,
+				2D49D3002B680E330036E4D4 /* GalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D49D3012B680E330036E4D4 /* GalleryView.swift in Sources */,
 				2D49D2FF2B680D930036E4D4 /* GalleryItemView.swift in Sources */,
 				2D49D2FD2B680C980036E4D4 /* ListItemView.swift in Sources */,
 				2D49D2FB2B680A760036E4D4 /* ListView.swift in Sources */,
